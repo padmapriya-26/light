@@ -9,7 +9,7 @@ pipeline {
         stage('Groovy stage') {
             steps {
                 script {
-                    def course="ks8"
+                    def course="k8"
                     if (course == "ks8")
                         println("thanks for enrolling")
                     else
